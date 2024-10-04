@@ -1,10 +1,9 @@
-// src/main.rs
-
 mod quark;
 mod proton;
 mod neutron;
 mod nucleus;
 mod atom;
+mod electron; // Ensure to declare the electron module
 
 use atom::Atom;
 
